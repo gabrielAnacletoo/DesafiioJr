@@ -216,7 +216,11 @@ GET /products/7898215151708
 
 Para visualizar a documentação completa da API, acesse o Swagger UI.
 
-[Swagger UI](http://localhost:3000/docs)
+Swagger UI
+```
+GET /products/7898215151708
+```
+
 
 ### Detalhes Adicionais
 - **Autor da API:** [Gabriel Anacleto](https://www.linkedin.com/in/gabriel-anacletoo/) 
