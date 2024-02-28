@@ -218,7 +218,7 @@ Para visualizar a documentação completa da API, acesse o Swagger UI.
 
 Swagger UI
 ```
-GET /products/7898215151708
+http://localhost:3000/docs
 ```
 
 
