@@ -31,6 +31,16 @@ Portanto, os produtos com Nutri-Score A são os mais saudáveis.
 - O Grupo 4 inclui alimentos ultra processados, feitos principalmente ou inteiramente a partir de substâncias industriais e contendo pouco ou nenhum alimento integral. Portanto, sua aplicação deve ser capaz de filtrar esses dois critérios.
 .
 ```
+## Principais Desafios Enfrentados
+```
+Durante o desenvolvimento deste projeto, deparei-me com desafios significativos, principalmente no contexto do web scraping, uma área na qual eu tinha pouca experiência prévia. Embora estivesse familiarizado com conceitos como Puppeteer e Cheerio, mergulhar mais profundamente nesse universo foi uma experiência nova e desafiadora para mim.
+
+Uma das principais dificuldades que enfrentei foi compreender a dinâmica do código executado dentro do contexto do navegador em comparação com o ambiente Node.js ao qual estou mais acostumado. Entender que o código dentro da função evaluate é executado em um contexto "html" foi uma descoberta importante para mim, exigindo uma adaptação significativa na forma como eu abordava a resolução dos problemas.
+
+Além disso, aprender a estruturar e separar passo a passo as etapas do processo de web scraping foi um desafio adicional. A necessidade de planejamento meticuloso e organização para garantir que cada etapa do processo estivesse corretamente definida e implementada foi uma nova abordagem para mim, mas uma que me proporcionou um valioso aprendizado ao longo do projeto.
+
+Apesar dos desafios enfrentados, encarei este teste como uma oportunidade de crescimento e aprendizado. A experiência desafiadora e ao mesmo tempo fascinante proporcionada por este projeto me permitiu expandir meu conhecimento e habilidades em uma área até então pouco explorada por mim. Estou entusiasmado com a oportunidade de aplicar o que aprendi neste projeto em futuros desafios e projetos.
+```
 
 ## 💻 Instalação
 
