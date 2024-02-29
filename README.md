@@ -7,14 +7,13 @@ A primeira rota deveria ser possivel pesquisar alimentos com utilizado filtros d
 A segunda rota deveria retornar as informações de um produto filtrado pelo id.
 
 
-```bash
+### Nutri-Score
 A Nutri-Score é uma classificação nutricional que foi adotada por diversos países e empresas para ajudar os consumidores a comparar a qualidade nutricional dos produtos no momento da compra. 
 Ela classifica os alimentos de A (melhor) a E (pior). 
 Portanto, os produtos com Nutri-Score A são os mais saudáveis.
-.
-```
 
-```bash
+
+### NOVA
 # Nova
 - $ A NOVA, é um sistema de classificação de alimentos, que categoriza produtos alimentícios em quatro grupos com base no grau de processamento ao qual são submetidos. 
 
@@ -28,8 +27,7 @@ Portanto, os produtos com Nutri-Score A são os mais saudáveis.
 
 # Grupo 4
 - O Grupo 4 inclui alimentos ultra processados, feitos principalmente ou inteiramente a partir de substâncias industriais e contendo pouco ou nenhum alimento integral. Portanto, sua aplicação deve ser capaz de filtrar esses dois critérios.
-.
-```
+
 ## Principais Desafios Enfrentados
 
 Durante o desenvolvimento deste projeto, deparei-me com desafios significativos, principalmente no contexto do web scraping, uma área na qual eu tinha pouca experiência prévia. Embora estivesse familiarizado com conceitos como Puppeteer e Cheerio, mergulhar mais profundamente nesse universo foi uma experiência nova e desafiadora para mim.
