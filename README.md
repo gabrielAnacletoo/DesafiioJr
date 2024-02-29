@@ -14,7 +14,7 @@ Portanto, os produtos com Nutri-Score A são os mais saudáveis.
 
 
 ### Nova
-- $ A NOVA, é um sistema de classificação de alimentos, que categoriza produtos alimentícios em quatro grupos com base no grau de processamento ao qual são submetidos. 
+- A NOVA, é um sistema de classificação de alimentos, que categoriza produtos alimentícios em quatro grupos com base no grau de processamento ao qual são submetidos. 
 
 - O Grupo 1 inclui alimentos não processados ou minimamente processados, como frutas, legumes e carnes. 
 
