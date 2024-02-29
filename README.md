@@ -1,12 +1,11 @@
 # API de Desafio para Vaga Junior.
  ### Bem vindo(a)!
- ```bash
+
 Esta API foi desenvolvida para uma vaga de desenvolvedor junior.
-Onde eu deveria buscar dados sobre alimentos no site https://br.openfoodfacts.org/, não sendo necessário persistir esses dados.
+Onde eu deveria buscar dados sobre alimentos no site  [Openfoodfacts](https://br.openfoodfacts.org/) , não sendo necessário persistir esses dados.
 A primeira rota deveria ser possivel pesquisar alimentos com utilizado filtros de Nutri-Score e Nova.
 A segunda rota deveria retornar as informações de um produto filtrado pelo id.
-.
-```
+
 
 ```bash
 A Nutri-Score é uma classificação nutricional que foi adotada por diversos países e empresas para ajudar os consumidores a comparar a qualidade nutricional dos produtos no momento da compra. 
