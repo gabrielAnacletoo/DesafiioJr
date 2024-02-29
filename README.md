@@ -53,7 +53,7 @@ Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instala
 - $ cd DesavioJr
 
 # Instale as dependencias
-- $ npm i 
+- $ npm i puppeteer
 
 
 # Rode a aplicação
