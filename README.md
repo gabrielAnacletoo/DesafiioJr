@@ -13,19 +13,19 @@ Ela classifica os alimentos de A (melhor) a E (pior).
 Portanto, os produtos com Nutri-Score A são os mais saudáveis.
 
 
-### NOVA
-# Nova
+## NOVA
+### Nova
 - $ A NOVA, é um sistema de classificação de alimentos, que categoriza produtos alimentícios em quatro grupos com base no grau de processamento ao qual são submetidos. 
 
-# Grupo 1
+### Grupo 1
 - O Grupo 1 inclui alimentos não processados ou minimamente processados, como frutas, legumes e carnes. 
-# Grupo 2
+### Grupo 2
 - O Grupo 2 consiste em ingredientes culinários processados, como óleos, açúcar e sal. 
 
-# Grupo 3
+### Grupo 3
 -  O Grupo 3 inclui alimentos processados, como vegetais enlatados e queijos, que contêm ingredientes adicionados como sal, óleo ou açúcar. 
 
-# Grupo 4
+### Grupo 4
 - O Grupo 4 inclui alimentos ultra processados, feitos principalmente ou inteiramente a partir de substâncias industriais e contendo pouco ou nenhum alimento integral. Portanto, sua aplicação deve ser capaz de filtrar esses dois critérios.
 
 ## Principais Desafios Enfrentados
