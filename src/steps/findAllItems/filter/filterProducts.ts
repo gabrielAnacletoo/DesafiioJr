@@ -20,7 +20,7 @@ export class ProductFilterFacade {
         return productList.map((item) => {
           const productNutriScoreIcon = item.querySelector('.list_product_icons[title^="Nutri-Score"]');
           const productNutriScoreTitle = productNutriScoreIcon ? productNutriScoreIcon.getAttribute('title') : '';
-          const productNutriScore = productNutriScoreTitle.split(' ')[1].charAt(0);
+          const productNutriScore = productNutriScoreTitle.split(' ')[1].charAt(0)
 
           const productNovaIcon = item.querySelector('.list_product_icons[title^="NOVA"]');
           const productNovaTitle = productNovaIcon ? productNovaIcon.getAttribute('title') : '';
