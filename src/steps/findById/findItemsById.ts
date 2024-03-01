@@ -11,7 +11,7 @@ export class ProductFacadeById {
     this.ProductFilterService = new ProductFilterFacadeById(this.puppeteerService);
   }
 
-  async scrapeProducts(id: number): Promise<any> {
+  async scrapeProducts(id: number) {
     try {
       
       const response = await this.ProductFilterService.filterProductsById(id)
