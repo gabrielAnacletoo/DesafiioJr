@@ -17,7 +17,7 @@ export class ProductFilterFacade {
         const productList = Array.from(document.querySelectorAll('#products_match_all li'));
         console.log('Extraindo informações dos produtos...');
 
-        return productList.map((item: any) => {
+        return productList.map((item) => {
           const productNutriScoreIcon = item.querySelector('.list_product_icons[title^="Nutri-Score"]');
           const productNutriScoreTitle = productNutriScoreIcon ? productNutriScoreIcon.getAttribute('title') : '';
           const productNutriScore = productNutriScoreTitle.split(' ')[1].charAt(0);
@@ -45,7 +45,7 @@ export class ProductFilterFacade {
       }
 
       return products.filter(
-        (product: any) =>
+        (product) =>
           product.productNutriScore === nutrition &&
           product.productNovaScore === nova,
       );

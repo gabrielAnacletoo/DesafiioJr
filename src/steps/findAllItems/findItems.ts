@@ -1,7 +1,7 @@
 import { HttpException, NotFoundException } from '@nestjs/common';
 import { PuppeteerService } from '../accessWebsite/puppeteer.config';
 import { ProductFilterFacade } from './filter/filterProducts';
-import { ProductsInfo } from 'src/utils/types';
+import { ProductsInfo, returnProducts } from 'src/@types/products.types';
 
 export class ProductFacade {
   private puppeteerService: PuppeteerService;
@@ -12,7 +12,7 @@ export class ProductFacade {
     this.ProductFilterService = new ProductFilterFacade(this.puppeteerService);
   }
 
-  async scrapeProducts(nutrition: string, nova: string): Promise<any> {
+  async scrapeProducts(nutrition: string, nova: string) {
     try {
       const response: ProductsInfo[] =
         await this.ProductFilterService.filterProductsByNutritionAndNova(
@@ -20,8 +20,7 @@ export class ProductFacade {
           nova,
         );
 
-      // Mapear os produtos filtrados para um novo array de objetos com as propriedades desejadas
-      const formattedProducts = response.map((item: any) => ({
+      const formattedProducts = response.map((item: ProductsInfo) => ({
         id: item.productId,
         name: item.productName,
         nutrition: {
@@ -29,7 +28,7 @@ export class ProductFacade {
           title: item.productNutriScoreTitle,
         },
         nova: {
-          score: parseInt(item.productNovaScore),
+          score: parseInt(item.productNovaScore.toString()),
           title: item.productNovaTitle,
         },
       }));
